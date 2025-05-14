@@ -1,0 +1,55 @@
+<h3>ناردنی خێرا</h3>
+                    <p>ناردنی خێرا بۆ هەموو شارەکانی کوردستان لە ماوەی 2-3 ڕۆژ</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>دڵنیایی کاڵا</h3>
+                    <p>هەموو کاڵاکان بە گارانتی و دڵنیایی فرۆشراون</p>
+                </div>
+                
+                <div class="service-card">
+                    <h3>پارە گەڕانەوە</h3>
+                    <p>مافی گەڕانەوەی پارەت هەیە ئەگەر کاڵاکە پێت خۆش نەبوو</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>دەربارەی ئێمە</h3>
+                <p>دوکانی دیجیتاڵی شاز - باشترین شوێن بۆ کڕینی کاڵا دیجیتاڵیەکان</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>پەیوەندیمان پێوە بکە</h3>
+                <p>ئیمەیڵ: info@shaz-digital.com</p>
+                <p>ژمارەی مۆبایل: 0750 123 4567</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>شوێنی ئێمە</h3>
+                <p>هەولێر، گەڕەکی ١٠۴، کۆی سەرەکی</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>© 2023 دوکانی دیجیتاڵی شاز. هەموو مافان پارێزراوە.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // کۆدی جاڤاسکریپت بۆ کاراکردنی سەبەندە و فرۆشتن
+        document.querySelectorAll('.add-to-cart').forEach(button => {
+            button.addEventListener('click', function() {
+                let count = parseInt(document.querySelector('.cart-count').textContent);
+                document.querySelector('.cart-count').textContent = count + 1;
+                
+                // نمایشی ئاگاداری
+                alert('کاڵاکە زیادکرا بۆ سەبەندە!');
+            });
+        });
+    </script>
+</body>
+</html>
